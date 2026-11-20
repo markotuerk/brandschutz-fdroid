@@ -1,0 +1,46 @@
+{
+  "repo": {
+    "timestamp": 1795191545000
+  },
+  "packages": {
+    "de.ibtuerk.begehung": {
+      "metadata": {
+        "lastUpdated": 1795191545000
+      },
+      "versions": {
+        "916cc61c3f9f5222e26acf881c5f7ffaaac3ffd001d8932cc8e27cf74a9c8046": {
+          "added": 1795191545000,
+          "file": {
+            "name": "/de.ibtuerk.begehung_4.apk",
+            "sha256": "916cc61c3f9f5222e26acf881c5f7ffaaac3ffd001d8932cc8e27cf74a9c8046",
+            "size": 4902101
+          },
+          "manifest": {
+            "versionName": "1.1.0-alpha.2",
+            "versionCode": 4,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "423082df5cc8962a3fbbb9a7a21e9b3565cc6b5f09c01999f6dbabf89ca912a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "de.ibtuerk.begehung.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
