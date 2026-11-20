@@ -1,0 +1,69 @@
+{
+  "repo": {
+    "timestamp": 1795190467000,
+    "version": 20002,
+    "name": "3S Brandschutz-Studio \u2013 Ingenieurb\u00fcro T\u00fcrk",
+    "icon": "icon.png",
+    "address": "https://raw.githubusercontent.com/markotuerk/brandschutz-fdroid/main/repo",
+    "description": "Apps zum 3S Brandschutz-Studio des Ingenieurb\u00fcros T\u00fcrk \u2013 simple \u00b7 smart \u00b7 safe. Begehung: Brandschutzbegehungen mit Fotos, Notizen und Diktat aufnehmen und mit dem Studio austauschen."
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "authorName": "Ingenieurb\u00fcro T\u00fcrk",
+      "authorWebSite": "https://www.ingenieurbuero-tuerk.de",
+      "categories": [
+        "Office"
+      ],
+      "suggestedVersionCode": "3",
+      "description": "Begehung ist die mobile Erg\u00e4nzung zum 3S Brandschutz-Studio des Ingenieurb\u00fcros T\u00fcrk \u2013\nsimple \u00b7 smart \u00b7 safe (\u201eKeep it simple and smart \u2013 but safe.\u201c).\n\nUnterwegs nimmst du Begehungsprotokolle auf:\n\n* Fotos mit Kommentar, als neuer Eintrag oder zum letzten Eintrag\n* Notizen und Diktat f\u00fcr Auff\u00e4lligkeiten und Ma\u00dfnahmen\n* Abschnitte, z. B. je Geschoss\n* Kopfdaten, Teilnehmer, Verantwortliche und Termine\n\nAustausch mit dem 3S Brandschutz-Studio:\n\n* per WLAN nach dem Scan eines QR-Codes, in beide Richtungen: Protokolle senden und aus dem Studio holen\n* als ZIP-Datei \u00fcber Teilen, z. B. OneDrive, Nextcloud oder E-Mail\n\nDie App arbeitet offline und speichert nur auf dem Ger\u00e4t. Eine Verbindung braucht sie nur zur \u00dcbertragung ins lokale Netz.\n\nAlpha-Version: Funktionen und Datenformat k\u00f6nnen sich noch \u00e4ndern.",
+      "license": "MIT",
+      "name": "Begehung",
+      "summary": "Brandschutzbegehungen mit Fotos, Notizen und Diktat aufnehmen",
+      "webSite": "https://www.ingenieurbuero-tuerk.de",
+      "added": 1795190384000,
+      "packageName": "de.ibtuerk.begehung",
+      "lastUpdated": 1795190384000,
+      "localized": {
+        "de-DE": {
+          "icon": "icon_EyKucFE_Wllwf1L65he0BPTtbOZMMt_uwhIlwDt1bNc=.png"
+        }
+      }
+    }
+  ],
+  "packages": {
+    "de.ibtuerk.begehung": [
+      {
+        "added": 1795190384000,
+        "apkName": "de.ibtuerk.begehung_3.apk",
+        "hash": "4cb7d463ca56b895bf28daa6d66945dc45dcf572b1a917c9ac886e1dab147b43",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "packageName": "de.ibtuerk.begehung",
+        "sig": "122ae6dc4618ed65fd381fab7db97536",
+        "signer": "423082df5cc8962a3fbbb9a7a21e9b3565cc6b5f09c01999f6dbabf89ca912a7",
+        "size": 4901969,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "de.ibtuerk.begehung.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 3,
+        "versionName": "1.1.0-alpha.1"
+      }
+    ]
+  }
+}

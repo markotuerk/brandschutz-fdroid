@@ -1,0 +1,31 @@
+Categories:
+  - Office
+License: MIT
+AuthorName: Ingenieurbüro Türk
+AuthorWebSite: https://www.ingenieurbuero-tuerk.de
+WebSite: https://www.ingenieurbuero-tuerk.de
+
+Name: Begehung
+Summary: Brandschutzbegehungen mit Fotos, Notizen und Diktat aufnehmen
+Description: |-
+    Begehung ist die mobile Ergänzung zum 3S Brandschutz-Studio des Ingenieurbüros Türk –
+    simple · smart · safe („Keep it simple and smart – but safe.“).
+
+    Unterwegs nimmst du Begehungsprotokolle auf:
+
+    * Fotos mit Kommentar, als neuer Eintrag oder zum letzten Eintrag
+    * Notizen und Diktat für Auffälligkeiten und Maßnahmen
+    * Abschnitte, z. B. je Geschoss
+    * Kopfdaten, Teilnehmer, Verantwortliche und Termine
+
+    Austausch mit dem 3S Brandschutz-Studio:
+
+    * per WLAN nach dem Scan eines QR-Codes, in beide Richtungen: Protokolle senden und aus dem Studio holen
+    * als ZIP-Datei über Teilen, z. B. OneDrive, Nextcloud oder E-Mail
+
+    Die App arbeitet offline und speichert nur auf dem Gerät. Eine Verbindung braucht sie nur zur Übertragung ins lokale Netz.
+
+    Alpha-Version: Funktionen und Datenformat können sich noch ändern.
+
+AutoUpdateMode: None
+UpdateCheckMode: None

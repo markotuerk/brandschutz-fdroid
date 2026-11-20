@@ -1,0 +1,92 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "3S Brandschutz-Studio – Ingenieurbüro Türk"
+    },
+    "description": {
+      "en-US": "Apps zum 3S Brandschutz-Studio des Ingenieurbüros Türk – simple · smart · safe. Begehung: Brandschutzbegehungen mit Fotos, Notizen und Diktat aufnehmen und mit dem Studio austauschen."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "79d9fd6ef61dccd0cd2730ad87d24b53ce74e2c0ee864d65f5a64462351c6ca8",
+        "size": 952
+      }
+    },
+    "address": "https://raw.githubusercontent.com/markotuerk/brandschutz-fdroid/main/repo",
+    "timestamp": 1795190467000,
+    "categories": {
+      "Office": {
+        "name": {
+          "en-US": "Office"
+        }
+      }
+    }
+  },
+  "packages": {
+    "de.ibtuerk.begehung": {
+      "metadata": {
+        "added": 1795190384000,
+        "categories": [
+          "Office"
+        ],
+        "lastUpdated": 1795190384000,
+        "license": "MIT",
+        "webSite": "https://www.ingenieurbuero-tuerk.de",
+        "authorName": "Ingenieurbüro Türk",
+        "authorWebSite": "https://www.ingenieurbuero-tuerk.de",
+        "name": {
+          "en-US": "Begehung"
+        },
+        "summary": {
+          "en-US": "Brandschutzbegehungen mit Fotos, Notizen und Diktat aufnehmen"
+        },
+        "description": {
+          "en-US": "Begehung ist die mobile Ergänzung zum 3S Brandschutz-Studio des Ingenieurbüros Türk –\nsimple · smart · safe („Keep it simple and smart – but safe.“).\n\nUnterwegs nimmst du Begehungsprotokolle auf:\n\n* Fotos mit Kommentar, als neuer Eintrag oder zum letzten Eintrag\n* Notizen und Diktat für Auffälligkeiten und Maßnahmen\n* Abschnitte, z. B. je Geschoss\n* Kopfdaten, Teilnehmer, Verantwortliche und Termine\n\nAustausch mit dem 3S Brandschutz-Studio:\n\n* per WLAN nach dem Scan eines QR-Codes, in beide Richtungen: Protokolle senden und aus dem Studio holen\n* als ZIP-Datei über Teilen, z. B. OneDrive, Nextcloud oder E-Mail\n\nDie App arbeitet offline und speichert nur auf dem Gerät. Eine Verbindung braucht sie nur zur Übertragung ins lokale Netz.\n\nAlpha-Version: Funktionen und Datenformat können sich noch ändern."
+        },
+        "icon": {
+          "de-DE": {
+            "name": "/de.ibtuerk.begehung/de-DE/icon_EyKucFE_Wllwf1L65he0BPTtbOZMMt_uwhIlwDt1bNc=.png",
+            "sha256": "1322ae70513f5a59707f52fae617b404f4ed6ce64c32dfeec21225c03b756cd7",
+            "size": 10442
+          }
+        },
+        "preferredSigner": "423082df5cc8962a3fbbb9a7a21e9b3565cc6b5f09c01999f6dbabf89ca912a7"
+      },
+      "versions": {
+        "4cb7d463ca56b895bf28daa6d66945dc45dcf572b1a917c9ac886e1dab147b43": {
+          "added": 1795190384000,
+          "file": {
+            "name": "/de.ibtuerk.begehung_3.apk",
+            "sha256": "4cb7d463ca56b895bf28daa6d66945dc45dcf572b1a917c9ac886e1dab147b43",
+            "size": 4901969
+          },
+          "manifest": {
+            "versionName": "1.1.0-alpha.1",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "423082df5cc8962a3fbbb9a7a21e9b3565cc6b5f09c01999f6dbabf89ca912a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "de.ibtuerk.begehung.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
