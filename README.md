@@ -4,7 +4,7 @@
 
 | App | Version | Beschreibung |
 |---|---|---|
-| Begehung | 1.1.0-alpha.2 | Brandschutzbegehungen mit Fotos, Notizen und Diktat aufnehmen und mit dem Studio austauschen |
+| Begehung | 1.2.0-alpha.1 | Brandschutzbegehungen mit Fotos, Notizen und Diktat aufnehmen und mit dem Studio austauschen |
 
 ## Repository in F-Droid hinzufügen
 

@@ -1,13 +1,48 @@
 {
   "repo": {
-    "timestamp": 1795191545000
+    "timestamp": 1795624023000
   },
   "packages": {
     "de.ibtuerk.begehung": {
       "metadata": {
-        "lastUpdated": 1795191545000
+        "lastUpdated": 1795624023000,
+        "description": {
+          "en-US": "Begehung ist die mobile Ergänzung zum 3S Brandschutz-Studio des Ingenieurbüros Türk –\nsimple · smart · safe („Keep it simple and smart – but safe.“).\n\nUnterwegs nimmst du Begehungsprotokolle auf:\n\n* Fotos mit Kommentar, als neuer Eintrag oder zum letzten Eintrag\n* Skizzen und Anmerkungen ins Foto zeichnen: Pfeil, Freihand, Rahmen, Kreis, Text – das Foto bleibt unverändert\n* Notizen und Diktat für Auffälligkeiten und Maßnahmen\n* Abschnitte, z. B. je Geschoss\n* Kopfdaten, Teilnehmer, Verantwortliche und Termine\n\nAustausch mit dem 3S Brandschutz-Studio:\n\n* per WLAN nach dem Scan eines QR-Codes, in beide Richtungen: Protokolle senden und aus dem Studio holen\n* als ZIP-Datei über Teilen, z. B. OneDrive, Nextcloud oder E-Mail\n\nDie App arbeitet offline und speichert nur auf dem Gerät. Eine Verbindung braucht sie nur zur Übertragung ins lokale Netz.\n\nAlpha-Version: Funktionen und Datenformat können sich noch ändern."
+        }
       },
       "versions": {
+        "dcea5dab8d73a72f12af9e82d0b124fd04e2f656b7a54431120d43ef896cc87c": {
+          "added": 1795624023000,
+          "file": {
+            "name": "/de.ibtuerk.begehung_5.apk",
+            "sha256": "dcea5dab8d73a72f12af9e82d0b124fd04e2f656b7a54431120d43ef896cc87c",
+            "size": 4915989
+          },
+          "manifest": {
+            "versionName": "1.2.0-alpha.1",
+            "versionCode": 5,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "423082df5cc8962a3fbbb9a7a21e9b3565cc6b5f09c01999f6dbabf89ca912a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "de.ibtuerk.begehung.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "916cc61c3f9f5222e26acf881c5f7ffaaac3ffd001d8932cc8e27cf74a9c8046": {
           "added": 1795191545000,
           "file": {
